@@ -4,15 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.12",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.13",
+    "webpack-cli": "^4.7.0"
   }
 }

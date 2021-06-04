@@ -20,6 +20,7 @@
     "webpack": "^5.38.1"
   },
   "devDependencies": {
+    "vue": "^2.6.13",
     "vue-loader": "^15.9.7",
     "vue-template-compiler": "^2.6.13",
     "webpack-cli": "^4.7.0"

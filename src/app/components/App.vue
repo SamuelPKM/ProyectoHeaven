@@ -58,7 +58,11 @@ export default {
       .then(data => console.log(data));
 
       this.task = new Task();
+    },
+    getTask(){
+
     }
+
   }
 }
 </script>
